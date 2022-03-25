@@ -331,22 +331,22 @@ const Home: NextPage = () => {
                                 }
                             </div>
                             <div className={styles.flexCharts}>
-                                <div style={{ width: '47.5%' }}>
+                                <div className={styles.itemChart}>
                                     <AreaChart
                                         data={dataChart}
                                         options={options} />
                                 </div>
-                                <div style={{ width: '47.5%' }}>
+                                <div className={styles.itemChart}>
                                     <AreaChart
                                         data={dataChartBhouse}
                                         options={optionsBhouse} />
                                 </div>
-                                <div style={{ width: '47.5%' }}>
+                                <div className={styles.itemChart}>
                                     <AreaChart
                                         data={dataSaleBheroes}
                                         options={optionSaleBheroes} />
                                 </div>
-                                <div style={{ width: '47.5%' }}>
+                                <div className={styles.itemChart}>
                                     <AreaChart
                                         data={dataSaleBhouse}
                                         options={optionSaleBhouse} />

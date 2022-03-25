@@ -79,6 +79,10 @@
   gap: 24px;
 }
 
+.itemChart {
+  width: 100%;
+}
+
 @media only screen and (min-width: 1200px) {
   .itemCardList {
     width: 47.5%;
@@ -89,6 +93,10 @@
   }
 
   .detailItem {
-    width: 47.5%
+    width: 47.5%;
+  }
+
+  .itemChart {
+    width: 47.5%;
   }
 }
